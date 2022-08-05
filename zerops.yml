@@ -19,6 +19,7 @@ nxsig:
 
     # build your application
     build:
+      - npm install
       - npx nx build api --prod
 
     # select which files / folders to deploy
